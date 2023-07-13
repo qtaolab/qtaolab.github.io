@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2023/07/12/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Install Hexo and Initialise</title>
     <url>/2023/07/12/install_hexo/</url>
     <content><![CDATA[<h2 id="Prerequisites"><a href="#Prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h2><p>First and foremost, to build a static website with Hexo and Github, you need to install these tools on your laptop&#x2F;desktop:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure></div>
 
 <h2 id="Prerequisites-1"><a href="#Prerequisites-1" class="headerlink" title="Prerequisites"></a>Prerequisites</h2><p>First and foremost, to build a static website with Hexo and Github, you need to install these tools on your laptop&#x2F;desktop:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure></div>
 
 <p>Step 1: Install Hexo and Initialise Your Website<br>You can use npm to install Hexo:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir </span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init mywebsite</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir </span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init mywebsite</span><br></pre></td></tr></table></figure></div>
 <p>Next step, enter the directory of mywebsite and install all relative packages with npm:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd mywebsite</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd mywebsite</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></div>
 
 <p>That’s it. You’ve built a basic static website. The settings file is _config.yml. You can customise the settings as you like.</p>
 ]]></content>
@@ -23,8 +41,8 @@
   <entry>
     <title>Markdown Cheat Sheet</title>
     <url>/2023/07/12/markdown-cheat-sheet/</url>
-    <content><![CDATA[<h1 id="Markdown-Cheat-Sheet"><a href="#Markdown-Cheat-Sheet" class="headerlink" title="Markdown Cheat Sheet"></a>Markdown Cheat Sheet</h1><p>Thanks for visiting <a href="https://www.markdownguide.org/">The Markdown Guide</a>!</p>
-<p>This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for <a href="https://www.markdownguide.org/basic-syntax">basic syntax</a> and <a href="https://www.markdownguide.org/extended-syntax">extended syntax</a>.</p>
+    <content><![CDATA[<h1 id="Markdown-Cheat-Sheet"><a href="#Markdown-Cheat-Sheet" class="headerlink" title="Markdown Cheat Sheet"></a>Markdown Cheat Sheet</h1><p>Thanks for visiting <a class="link"   href="https://www.markdownguide.org/" >The Markdown Guide <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>!</p>
+<p>This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for <a class="link"   href="https://www.markdownguide.org/basic-syntax" >basic syntax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> and <a class="link"   href="https://www.markdownguide.org/extended-syntax" >extended syntax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
 <h2 id="Basic-Syntax"><a href="#Basic-Syntax" class="headerlink" title="Basic Syntax"></a>Basic Syntax</h2><p>These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</p>
 <h3 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h3><h1 id="H1"><a href="#H1" class="headerlink" title="H1"></a>H1</h1><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h3 id="Bold"><a href="#Bold" class="headerlink" title="Bold"></a>Bold</h3><p><strong>bold text</strong></p>
 <h3 id="Italic"><a href="#Italic" class="headerlink" title="Italic"></a>Italic</h3><p><em>italicized text</em></p>
@@ -43,8 +61,13 @@
 </ul>
 <h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><p><code>code</code></p>
 <h3 id="Horizontal-Rule"><a href="#Horizontal-Rule" class="headerlink" title="Horizontal Rule"></a>Horizontal Rule</h3><hr>
-<h3 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h3><p><a href="https://www.markdownguide.org/">Markdown Guide</a></p>
-<h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><p><img src="https://www.markdownguide.org/assets/images/tux.png" alt="alt text"></p>
+<h3 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h3><p><a class="link"   href="https://www.markdownguide.org/" >Markdown Guide <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://www.markdownguide.org/assets/images/tux.png"
+                      alt="alt text"
+                ></p>
 <h2 id="Extended-Syntax"><a href="#Extended-Syntax" class="headerlink" title="Extended Syntax"></a>Extended Syntax</h2><p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
 <h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><table>
 <thead>
@@ -62,7 +85,7 @@
 <td>Text</td>
 </tr>
 </tbody></table>
-<h3 id="Fenced-Code-Block"><a href="#Fenced-Code-Block" class="headerlink" title="Fenced Code Block"></a>Fenced Code Block</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;firstName&quot;: &quot;John&quot;,</span><br><span class="line">  &quot;lastName&quot;: &quot;Smith&quot;,</span><br><span class="line">  &quot;age&quot;: 25</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Fenced-Code-Block"><a href="#Fenced-Code-Block" class="headerlink" title="Fenced Code Block"></a>Fenced Code Block</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;firstName&quot;: &quot;John&quot;,</span><br><span class="line">  &quot;lastName&quot;: &quot;Smith&quot;,</span><br><span class="line">  &quot;age&quot;: 25</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
 <h3 id="Footnote"><a href="#Footnote" class="headerlink" title="Footnote"></a>Footnote</h3><p>Here’s a sentence with a footnote. [^1]</p>
 <p>[^1]: This is the footnote.</p>
@@ -74,7 +97,7 @@
   <entry>
     <title>NexT theme configuration</title>
     <url>/2023/07/12/next_theme_cofig/</url>
-    <content><![CDATA[<h1 id="How-to-configure-NexT-theme"><a href="#How-to-configure-NexT-theme" class="headerlink" title="How to configure NexT theme?"></a>How to configure NexT theme?</h1><p>The traditional approach is to edit <a href="https://theme-next.js.org/docs/getting-started/configuration.html">NexT config</a> file (thems&#x2F;next&#x2F;_config.yml or node_modules&#x2F;hexo-theme-next&#x2F;_config.yml) directly. However, the config file will be overwritten when upgrade NexT theme via git or npm, which brings inconvenience to the configuration of the theme.</p>
+    <content><![CDATA[<h1 id="How-to-configure-NexT-theme"><a href="#How-to-configure-NexT-theme" class="headerlink" title="How to configure NexT theme?"></a>How to configure NexT theme?</h1><p>The traditional approach is to edit <a class="link"   href="https://theme-next.js.org/docs/getting-started/configuration.html" >NexT config <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> file (thems&#x2F;next&#x2F;_config.yml or node_modules&#x2F;hexo-theme-next&#x2F;_config.yml) directly. However, the config file will be overwritten when upgrade NexT theme via git or npm, which brings inconvenience to the configuration of the theme.</p>
 <p>At present, NexT encourages users to use the Alternate Theme Config. It’s a feature of Hexo and the documentation is here: Hexo Configuration.</p>
 <p>This tutorial shows you how to configure NexT using Alternate Theme Config. Please choose only one of the following solutions and resume next steps.</p>
 <p>_config.[name].yml<br>With this way, all your theme configurations locate in config file &#x2F;_config.[name].yml. Replace [name] with the value of theme option in Hexo config file. For NexT theme, the file name is _config.next.yml by default.</p>
@@ -83,10 +106,10 @@
 <p>Copy needed NexT theme options from NexT config file into this config file. If it is the first time to install NexT, then copy the whole NexT config file by the following command:</p>
 <ul>
 <li><p>Installed through npm</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure></div>
 </li>
 <li><p>Installed through Git</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp themes/next/_config.yml _config.next.yml</span><br><span class="line">theme_config</span><br></pre></td></tr></table></figure></li>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp themes/next/_config.yml _config.next.yml</span><br><span class="line">theme_config</span><br></pre></td></tr></table></figure></div></li>
 </ul>
 <p>With this way, all your Hexo and NexT configurations locate in main Hexo config file. You don’t need to edit NexT config file or create any new files. But you need to keep up indentation within theme_config option.</p>
 <h3 id="Usage-1"><a href="#Usage-1" class="headerlink" title="Usage"></a>Usage</h3><p>Copy needed NexT theme options from NexT config file into Hexo config file, then</p>
@@ -95,23 +118,5 @@
       <tags>
         <tag>Next, Theme, configuration</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/07/12/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
