@@ -123,6 +123,10 @@
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
   </nav>
 </div>
 
@@ -282,7 +286,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://qtao3.github.io/2023/07/12/test-my-site/">
+    <link itemprop="mainEntityOfPage" href="https://qtao3.github.io/2023/07/12/next_theme_cofig/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -300,7 +304,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/12/test-my-site/" class="post-title-link" itemprop="url">test_my_site</a>
+          <a href="/2023/07/12/next_theme_cofig/" class="post-title-link" itemprop="url">NexT theme configuration</a>
         </h2>
 
         <div class="post-meta-container">
@@ -310,8 +314,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
+      
 
-      <time title="Created: 2023-07-12 18:44:58" itemprop="dateCreated datePublished" datetime="2023-07-12T18:44:58-04:00">2023-07-12</time>
+      <time title="Created: 2023-07-12 18:44:58 / Modified: 20:31:53" itemprop="dateCreated datePublished" datetime="2023-07-12T18:44:58-04:00">2023-07-12</time>
     </span>
 
   
@@ -324,7 +329,24 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          
+          <h1 id="How-to-configure-NexT-theme"><a href="#How-to-configure-NexT-theme" class="headerlink" title="How to configure NexT theme?"></a>How to configure NexT theme?</h1><p>The traditional approach is to edit <a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/configuration.html">NexT config</a> file (thems&#x2F;next&#x2F;_config.yml or node_modules&#x2F;hexo-theme-next&#x2F;_config.yml) directly. However, the config file will be overwritten when upgrade NexT theme via git or npm, which brings inconvenience to the configuration of the theme.</p>
+<p>At present, NexT encourages users to use the Alternate Theme Config. It’s a feature of Hexo and the documentation is here: Hexo Configuration.</p>
+<p>This tutorial shows you how to configure NexT using Alternate Theme Config. Please choose only one of the following solutions and resume next steps.</p>
+<p>_config.[name].yml<br>With this way, all your theme configurations locate in config file &#x2F;_config.[name].yml. Replace [name] with the value of theme option in Hexo config file. For NexT theme, the file name is _config.next.yml by default.</p>
+<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><p>Please ensure you are using Hexo 5.0 or later.</p>
+<p>Create a config file in site’s root directory, e.g. _config.next.yml.</p>
+<p>Copy needed NexT theme options from NexT config file into this config file. If it is the first time to install NexT, then copy the whole NexT config file by the following command:</p>
+<ul>
+<li><p>Installed through npm</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Installed through Git</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">cp themes/next/_config.yml _config.next.yml</span><br><span class="line">theme_config</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>With this way, all your Hexo and NexT configurations locate in main Hexo config file. You don’t need to edit NexT config file or create any new files. But you need to keep up indentation within theme_config option.</p>
+<h3 id="Usage-1"><a href="#Usage-1" class="headerlink" title="Usage"></a>Usage</h3><p>Copy needed NexT theme options from NexT config file into Hexo config file, then</p>
+<p>Move all these settings to the right with two spaces indentation (in Visual Studio Code: select all strings, CTRL + ]).<br>Add theme_config: parameter above all this settings.<br>next.yml (Deprecated)<br>Older versions of NexT theme also provide another configuration method, which is to place the theme configuration in the &#x2F;source&#x2F;_data&#x2F;next.yml file. This method is deprecated, please use _config.next.yml instead. If the &#x2F;source&#x2F;_data&#x2F;next.yml file exists, move it to the Hexo root directory and rename it to _config.next.yml.</p>
+
       
     </div>
 
