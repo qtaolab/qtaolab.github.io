@@ -1,54 +1,76 @@
-$(document).ready(function() {
-	$(window).scroll(function(){  //只要窗口滚动,就触发下面代码 
-        var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度 
-        if(scrollt>200){  //判断滚动后高度超过200px
-            $("#gotop").fadeIn(400); //淡出
-			if($(window).width() >= 1200){
-				$(".navbar").stop().fadeTo(400, 0.2);
-			}
-        }else{
-            $("#gotop").fadeOut(400); //如果返回或者没有超过,就淡入.必须加上stop()停止之前动画,否则会出现闪动
-            if($(window).width() >= 1200){
-				$(".navbar").stop().fadeTo(400, 1);
-            }
-        }
-    });
-    $("#gotop").click(function(){ //当点击标签的时候,使用animate在200毫秒的时间内,滚到顶部        
-		$("html,body").animate({scrollTop:"0px"},200);
-    });
-	$(".navbar").mouseenter(function(){
-		$(".navbar").fadeTo(100, 1);
-	});
-    $(".navbar").mouseleave(function(){
-		var scrollt = document.documentElement.scrollTop + document.body.scrollTop;
-		if (scrollt>200) {
-			$(".navbar").fadeTo(100, 0.2);
-		}
-	});
+/* global function */
 
-	replaceMeta();
+window.addEventListener('DOMContentLoaded', () => {
 
-	$(window).resize(function(){
-		replaceMeta();
-	});
+  Global.themeInfo = {
+    theme: `Redefine v${Global.theme_config.version}`,
+    author: 'EvanNotFound',
+    repository: 'https://github.com/EvanNotFound/hexo-theme-redefine'
+  }
+
+  Global.localStorageKey = 'Global-THEME-STATUS';
+
+  Global.styleStatus = {
+    isExpandPageWidth: false,
+    isDark: false,
+    fontSizeLevel: 0,
+    isOpenPageAside: true
+  }
+
+  // print theme base info
+  Global.printThemeInfo = () => {
+    console.log(`      ______ __  __  ______  __    __  ______                       \r\n     \/\\__  _\/\\ \\_\\ \\\/\\  ___\\\/\\ \"-.\/  \\\/\\  ___\\                      \r\n     \\\/_\/\\ \\\\ \\  __ \\ \\  __\\\\ \\ \\-.\/\\ \\ \\  __\\                      \r\n        \\ \\_\\\\ \\_\\ \\_\\ \\_____\\ \\_\\ \\ \\_\\ \\_____\\                    \r\n         \\\/_\/ \\\/_\/\\\/_\/\\\/_____\/\\\/_\/  \\\/_\/\\\/_____\/                    \r\n                                                               \r\n ______  ______  _____   ______  ______ __  __   __  ______    \r\n\/\\  == \\\/\\  ___\\\/\\  __-.\/\\  ___\\\/\\  ___\/\\ \\\/\\ \"-.\\ \\\/\\  ___\\   \r\n\\ \\  __<\\ \\  __\\\\ \\ \\\/\\ \\ \\  __\\\\ \\  __\\ \\ \\ \\ \\-.  \\ \\  __\\   \r\n \\ \\_\\ \\_\\ \\_____\\ \\____-\\ \\_____\\ \\_\\  \\ \\_\\ \\_\\\\\"\\_\\ \\_____\\ \r\n  \\\/_\/ \/_\/\\\/_____\/\\\/____\/ \\\/_____\/\\\/_\/   \\\/_\/\\\/_\/ \\\/_\/\\\/_____\/\r\n                                                               \r\n  Github: https:\/\/github.com\/EvanNotFound\/hexo-theme-redefine`);
+  }
+
+  // set styleStatus to localStorage
+  Global.setStyleStatus = () => {
+    localStorage.setItem(Global.localStorageKey, JSON.stringify(Global.styleStatus));
+  }
+
+  // get styleStatus from localStorage
+  Global.getStyleStatus = () => {
+    let temp = localStorage.getItem(Global.localStorageKey);
+    if (temp) {
+      temp = JSON.parse(temp);
+      for (let key in Global.styleStatus) {
+        Global.styleStatus[key] = temp[key];
+      }
+      return temp;
+    } else {
+      return null;
+    }
+  }
+
+  Global.refresh = () => {
+    Global.initUtils();
+    navbarShrink.init();
+    if (Global.data_config.masonry) {
+      Global.initMasonry();
+    }
+    Global.initModeToggle();
+    Global.initBackToTop();
+    if (Global.theme_config.home_banner.subtitle.text.length !== 0  && location.pathname === Global.hexo_config.root) {
+      Global.initTyped('subtitle');
+    }
+
+    if (Global.theme_config.plugins.mermaid.enable === true) {
+      Global.initMermaid();
+    }
+
+    if (Global.theme_config.navbar.search.enable === true) {
+      Global.initLocalSearch();
+    }
+
+    if (Global.theme_config.articles.code_block.copy === true) {
+      Global.initCopyCode();
+    }
+
+    if (Global.theme_config.articles.lazyload === true) {
+      Global.initLazyLoad();
+    }
+
+  }
+
+  Global.printThemeInfo();
+  Global.refresh();
 });
-
-replaceMeta = function(){
-	if ($(window).width() < 980) {
-		if ($("#side_meta #post_meta").length>0) {
-			$("#post_meta").appendTo("#top_meta");
-		}
-		if ($("#sidebar #site_search").length>0) {
-			$("#site_search").appendTo("#top_search");
-			$("#site_search #st-search-input").css("width", "95%");
-		}
-	} else {
-		if ($("#top_meta #post_meta").length>0) {
-			$("#post_meta").appendTo("#side_meta");
-		}
-		if ($("#top_search #site_search").length>0) {
-			$("#site_search").prependTo("#sidebar");
-			$("#site_search #st-search-input").css("width", "85%");
-		}
-	}
-}
