@@ -26,7 +26,12 @@
     
       
       
-    <summary type="html">&lt;h2 id=&quot;Prerequisites&quot;&gt;&lt;a href=&quot;#Prerequisites&quot; class=&quot;headerlink&quot; title=&quot;Prerequisites&quot;&gt;&lt;/a&gt;Prerequisites&lt;/h2&gt;&lt;p&gt;First and foremost, to bui</summary>
+    <summary type="html">&lt;div id=&quot;TOC&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#prerequisites&quot;
+id=&quot;toc-prerequisites&quot;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#prerequisites-1&quot;
+id=&quot;toc-prereq</summary>
       
     
     
@@ -45,12 +50,16 @@
     <link href="https://qtao3.github.io/2023/07/12/markdown-cheat-sheet/"/>
     <id>https://qtao3.github.io/2023/07/12/markdown-cheat-sheet/</id>
     <published>2023-07-12T23:21:43.000Z</published>
-    <updated>2023-07-15T15:12:31.690Z</updated>
+    <updated>2023-07-15T22:08:01.980Z</updated>
     
     
       
       
-    <summary type="html">&lt;p&gt;This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need m</summary>
+    <summary type="html">&lt;div id=&quot;TOC&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#basic-syntax&quot; id=&quot;toc-basic-syntax&quot;&gt;Basic Syntax&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#heading&quot; id=&quot;toc-heading&quot;&gt;Heading&lt;</summary>
       
     
     
@@ -74,7 +83,12 @@
     
       
       
-    <summary type="html">&lt;h1 id=&quot;How-to-configure-NexT-theme&quot;&gt;&lt;a href=&quot;#How-to-configure-NexT-theme&quot; class=&quot;headerlink&quot; title=&quot;How to configure NexT theme?&quot;&gt;&lt;/a&gt;How </summary>
+    <summary type="html">&lt;div id=&quot;TOC&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#how-to-configure-next-theme&quot;
+id=&quot;toc-how-to-configure-next-theme&quot;&gt;How to configure NexT theme?&lt;/a&gt;
+&lt;ul&gt;
+&lt;l</summary>
       
     
     
@@ -100,7 +114,11 @@
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo &lt;i class=&quot;fa-regular fa-arrow-up-right-from-square fa-sm&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is yo</summary>
+    <summary type="html">&lt;div id=&quot;TOC&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#quick-start&quot; id=&quot;toc-quick-start&quot;&gt;Quick Start&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#create-a-new-post&quot; id=&quot;toc-create-a-n</summary>
       
     
     

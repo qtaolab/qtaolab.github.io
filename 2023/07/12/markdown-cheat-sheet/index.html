@@ -18,16 +18,16 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the refer">
+        <meta name="description" content="Basic Syntax  Heading Bold Italic Blockquote Ordered List Unordered List Code Horizontal Rule  ---  Link Image  Extended Syntax  Table Fenced Code Block Footnote Strikethrough Task List Emoji Highli">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown Cheat Sheet">
 <meta property="og:url" content="https://qtao3.github.io/2023/07/12/markdown-cheat-sheet/index.html">
 <meta property="og:site_name" content="Data Science for Healthy Futures -- Illuminating Well-being.">
-<meta property="og:description" content="This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the refer">
+<meta property="og:description" content="Basic Syntax  Heading Bold Italic Blockquote Ordered List Unordered List Code Horizontal Rule  ---  Link Image  Extended Syntax  Table Fenced Code Block Footnote Strikethrough Task List Emoji Highli">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://www.markdownguide.org/assets/images/tux.png">
 <meta property="article:published_time" content="2023-07-12T23:21:43.000Z">
-<meta property="article:modified_time" content="2023-07-15T15:12:31.690Z">
+<meta property="article:modified_time" content="2023-07-15T22:08:01.980Z">
 <meta property="article:author" content="Qiushan Tao">
 <meta property="article:tag" content="markdown">
 <meta property="article:tag" content="cheatsheet">
@@ -93,7 +93,119 @@
     
     
     
-<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Data Science for Healthy Futures -- Illuminating Well-being." type="application/atom+xml">
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style><link rel="alternate" href="/atom.xml" title="Data Science for Healthy Futures -- Illuminating Well-being." type="application/atom+xml">
 </head>
 
 
@@ -239,8 +351,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2023-07-15 11:12:31</span>
-            <span class="mobile">2023-07-15 11:12:31</span>
+            <span class="desktop">2023-07-15 18:08:01</span>
+            <span class="mobile">2023-07-15 18:08:01</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -282,7 +394,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>258 Words</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>294 Words</span>
         </span>
     
     
@@ -303,67 +415,147 @@
             
 
             <div class="article-content markdown-body">
-                <p>This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for <a class="link"   target="_blank" rel="noopener" href="https://www.markdownguide.org/basic-syntax" >basic syntax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> and <a class="link"   target="_blank" rel="noopener" href="https://www.markdownguide.org/extended-syntax" >extended syntax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Basic-Syntax"><a href="#Basic-Syntax" class="headerlink" title="Basic Syntax"></a>Basic Syntax</h2><p>These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</p>
-<h3 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># H1</span><br><span class="line">## H2</span><br><span class="line">### H3</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Bold"><a href="#Bold" class="headerlink" title="Bold"></a>Bold</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**bold text**</span><br></pre></td></tr></table></figure></div>
+                <div id="TOC">
+<ul>
+<li><a href="#basic-syntax" id="toc-basic-syntax">Basic Syntax</a>
+<ul>
+<li><a href="#heading" id="toc-heading">Heading</a></li>
+<li><a href="#bold" id="toc-bold">Bold</a></li>
+<li><a href="#italic" id="toc-italic">Italic</a></li>
+<li><a href="#blockquote" id="toc-blockquote">Blockquote</a></li>
+<li><a href="#ordered-list" id="toc-ordered-list">Ordered List</a></li>
+<li><a href="#unordered-list" id="toc-unordered-list">Unordered
+List</a></li>
+<li><a href="#code" id="toc-code">Code</a></li>
+<li><a href="#horizontal-rule" id="toc-horizontal-rule">Horizontal
+Rule</a></li>
+</ul></li>
+<li><a href="#section" id="toc-section"><code>---</code></a>
+<ul>
+<li><a href="#link" id="toc-link">Link</a></li>
+<li><a href="#image" id="toc-image">Image</a></li>
+</ul></li>
+<li><a href="#extended-syntax" id="toc-extended-syntax">Extended
+Syntax</a>
+<ul>
+<li><a href="#table" id="toc-table">Table</a></li>
+<li><a href="#fenced-code-block" id="toc-fenced-code-block">Fenced Code
+Block</a></li>
+<li><a href="#footnote" id="toc-footnote">Footnote</a></li>
+<li><a href="#strikethrough" id="toc-strikethrough">Strikethrough</a></li>
+<li><a href="#task-list" id="toc-task-list">Task List</a></li>
+<li><a href="#emoji" id="toc-emoji">Emoji</a></li>
+<li><a href="#highlight" id="toc-highlight">Highlight</a></li>
+<li><a href="#subscript" id="toc-subscript">Subscript</a></li>
+<li><a href="#superscript" id="toc-superscript">Superscript</a></li>
+<li><a href="#math" id="toc-math">Math</a></li>
+</ul></li>
+<li><a href="#codeing-highlights" id="toc-codeing-highlights">Codeing
+Highlights</a></li>
+</ul>
+</div>
+<p>This Markdown cheat sheet provides a quick overview of all the
+Markdown syntax elements. It can’t cover every edge case, so if you need
+more information about any of these elements, refer to the reference
+guides for <a class="link" target="_blank" rel="noopener" href="https://www.markdownguide.org/basic-syntax">basic
+syntax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> and <a class="link" target="_blank" rel="noopener" href="https://www.markdownguide.org/extended-syntax">extended
+syntax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="basic-syntax">Basic Syntax</h2>
+<p>These are the elements outlined in John Gruber’s original design
+document. All Markdown applications support these elements.</p>
+<h3 id="heading">Heading</h3>
+<p># H1<br>
+## H2<br>
+### H3</p>
+<h3 id="bold">Bold</h3>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**bold text**</span><br></pre></td></tr></table></figure></div>
 <p><strong>bold text</strong></p>
-<h3 id="Italic"><a href="#Italic" class="headerlink" title="Italic"></a>Italic</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*italicized text*</span><br></pre></td></tr></table></figure></div>
+<h3 id="italic">Italic</h3>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*italicized text*</span><br></pre></td></tr></table></figure></div>
 <p><em>italicized text</em></p>
-<h3 id="Blockquote"><a href="#Blockquote" class="headerlink" title="Blockquote"></a>Blockquote</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; blockquote</span><br></pre></td></tr></table></figure></div>
+<h3 id="blockquote">Blockquote</h3>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; blockquote</span><br></pre></td></tr></table></figure></div>
 <blockquote>
 <p>blockquote</p>
 </blockquote>
-<h3 id="Ordered-List"><a href="#Ordered-List" class="headerlink" title="Ordered List"></a>Ordered List</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. First item</span><br><span class="line">2. Second item</span><br><span class="line">3. Third item</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Unordered-List"><a href="#Unordered-List" class="headerlink" title="Unordered List"></a>Unordered List</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- First item</span><br><span class="line">- Second item</span><br><span class="line">- Third item</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`code`</span><br></pre></td></tr></table></figure></div>
+<h3 id="ordered-list">Ordered List</h3>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. First item</span><br><span class="line">2. Second item</span><br><span class="line">3. Third item</span><br></pre></td></tr></table></figure></div>
+<h3 id="unordered-list">Unordered List</h3>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- First item</span><br><span class="line">- Second item</span><br><span class="line">- Third item</span><br></pre></td></tr></table></figure></div>
+<h3 id="code">Code</h3>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`code`</span><br></pre></td></tr></table></figure></div>
 <p><code>code</code></p>
-<h3 id="Horizontal-Rule"><a href="#Horizontal-Rule" class="headerlink" title="Horizontal Rule"></a>Horizontal Rule</h3><h2 id=""><a href="#" class="headerlink" title="---"></a><code>---</code></h2><h3 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h3><p><code>[Markdown Guide](https://www.markdownguide.org)</code><br><a class="link"   target="_blank" rel="noopener" href="https://www.markdownguide.org/" >Markdown Guide <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><p><code>![alt text](https://www.markdownguide.org/assets/images/tux.png)</code><br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://www.markdownguide.org/assets/images/tux.png"
-                      alt="alt text"
-                ></p>
-<h2 id="Extended-Syntax"><a href="#Extended-Syntax" class="headerlink" title="Extended Syntax"></a>Extended Syntax</h2><p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
-<h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| Syntax | Description |</span><br><span class="line">| ----------- | ----------- |</span><br><span class="line">| Header | Title |</span><br><span class="line">| Paragraph | Text |</span><br></pre></td></tr></table></figure></div>
-
+<h3 id="horizontal-rule">Horizontal Rule</h3>
+<h2 id="section"><code>---</code></h2>
+<h3 id="link">Link</h3>
+<p><code>[Markdown Guide](https://www.markdownguide.org)</code><br>
+<a class="link" target="_blank" rel="noopener" href="https://www.markdownguide.org">Markdown Guide <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="image">Image</h3>
+<p><code>![alt text](https://www.markdownguide.org/assets/images/tux.png)</code><br>
+<img lazyload="" src="/images/loading.svg" data-src="https://www.markdownguide.org/assets/images/tux.png" alt="alt text"></p>
+<h2 id="extended-syntax">Extended Syntax</h2>
+<p>These elements extend the basic syntax by adding additional features.
+Not all Markdown applications support these elements.</p>
+<h3 id="table">Table</h3>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| Syntax | Description |</span><br><span class="line">| ----------- | ----------- |</span><br><span class="line">| Header | Title |</span><br><span class="line">| Paragraph | Text |</span><br></pre></td></tr></table></figure></div>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>Syntax</th>
 <th>Description</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr class="odd">
 <td>Header</td>
 <td>Title</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Paragraph</td>
 <td>Text</td>
 </tr>
-</tbody></table>
-<h3 id="Fenced-Code-Block"><a href="#Fenced-Code-Block" class="headerlink" title="Fenced Code Block"></a>Fenced Code Block</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;firstName&quot;: &quot;John&quot;,</span><br><span class="line">  &quot;lastName&quot;: &quot;Smith&quot;,</span><br><span class="line">  &quot;age&quot;: 25</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="Footnote"><a href="#Footnote" class="headerlink" title="Footnote"></a>Footnote</h3><p><code>[^1]</code></p>
-<p>Here’s a sentence with a footnote. [^1]</p>
-<p>[^1]: This is the footnote.</p>
-<h3 id="Strikethrough"><a href="#Strikethrough" class="headerlink" title="Strikethrough"></a>Strikethrough</h3><p><code>~~The world is flat.~~</code><br><del>The world is flat.</del></p>
-<h3 id="Task-List"><a href="#Task-List" class="headerlink" title="Task List"></a>Task List</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- [x] Write the press release</span><br><span class="line">- [ ] Update the website</span><br><span class="line">- [ ] Contact the media</span><br></pre></td></tr></table></figure></div>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Write the press release</li>
-<li><input disabled="" type="checkbox"> Update the website</li>
-<li><input disabled="" type="checkbox"> Contact the media</li>
+</tbody>
+</table>
+<h3 id="fenced-code-block">Fenced Code Block</h3>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">{</span><br><span class="line">  "firstName": "John",</span><br><span class="line">  "lastName": "Smith",</span><br><span class="line">  "age": 25</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+<h3 id="footnote">Footnote</h3>
+<p><code>[^1]</code></p>
+<p>Here's a sentence with a footnote. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<h3 id="strikethrough">Strikethrough</h3>
+<p><code>~~The world is flat.~~</code><br>
+<del>The world is flat.</del></p>
+<h3 id="task-list">Task List</h3>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- [x] Write the press release</span><br><span class="line">- [ ] Update the website</span><br><span class="line">- [ ] Contact the media</span><br></pre></td></tr></table></figure></div>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">Write the press
+release</label></li>
+<li><label><input type="checkbox">Update the website</label></li>
+<li><label><input type="checkbox">Contact the media</label></li>
 </ul>
-<h3 id="Emoji"><a href="#Emoji" class="headerlink" title="Emoji"></a>Emoji</h3><p>That is so funny! <span class="github-emoji" alias="joy" style="font-size: 2em; font-weight: bold" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8">&#x1f602;</span></p>
-<p>(See also <a class="link"   target="_blank" rel="noopener" href="https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji" >Copying and Pasting Emoji <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</p>
-<h3 id="Highlight"><a href="#Highlight" class="headerlink" title="Highlight"></a>Highlight</h3><p><code>I need to highlight these ==very important words==.</code><br>I need to highlight these &#x3D;&#x3D;very important words&#x3D;&#x3D;.</p>
-<h3 id="Subscript"><a href="#Subscript" class="headerlink" title="Subscript"></a>Subscript</h3><p><code>H~2~O</code><br>H<del>2</del>O</p>
-<h3 id="Superscript"><a href="#Superscript" class="headerlink" title="Superscript"></a>Superscript</h3><p><code>X^2^</code><br>X^2^</p>
+<h3 id="emoji">Emoji</h3>
+<p>That is so funny! <span class="github-emoji" data-alias="joy" style="font-size: 2em; font-weight: bold" data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8">😂</span></p>
+<p>(See also <a class="link" target="_blank" rel="noopener" href="https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji">Copying
+and Pasting Emoji <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</p>
+<h3 id="highlight">Highlight</h3>
+<p><code>I need to highlight these ==very important words==.</code><br>
+I need to highlight these <mark>very important words</mark>.</p>
+<h3 id="subscript">Subscript</h3>
+<p><code>H~2~O</code><br>
+H<sub>2</sub>O</p>
+<h3 id="superscript">Superscript</h3>
+<p><code>X^2^</code><br>
+X<sup>2</sup></p>
+<h3 id="math">Math</h3>
+<p><span class="math display"><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="18.58ex" height="2.582ex" role="img" focusable="false" viewBox="0 -891.2 8212.5 1141.2"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="TeXAtom" transform="translate(605,413) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(523,363) scale(0.707)"><path data-c="1D467" d="M347 338Q337 338 294 349T231 360Q211 360 197 356T174 346T162 335T155 324L153 320Q150 317 138 317Q117 317 117 325Q117 330 120 339Q133 378 163 406T229 440Q241 442 246 442Q271 442 291 425T329 392T367 375Q389 375 411 408T434 441Q435 442 449 442H462Q468 436 468 434Q468 430 463 420T449 399T432 377T418 358L411 349Q368 298 275 214T160 106L148 94L163 93Q185 93 227 82T290 71Q328 71 360 90T402 140Q406 149 409 151T424 153Q443 153 443 143Q443 138 442 134Q425 72 376 31T278 -11Q252 -11 232 6T193 40T155 57Q111 57 76 -3Q70 -11 59 -11H54H41Q35 -5 35 -2Q35 13 93 84Q132 129 225 214T340 322Q352 338 347 338Z"></path></g></g></g></g><g data-mml-node="mo" transform="translate(1570.4,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mo" transform="translate(2626.2,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(3015.2,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(3737.4,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="msup" transform="translate(4737.7,0)"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mi"><path data-c="65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"></path></g></g><g data-mml-node="mi" transform="translate(477,413) scale(0.707)"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g></g><g data-mml-node="msup" transform="translate(5669.1,0)"><g data-mml-node="mo"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="TeXAtom" transform="translate(422,413) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mo"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(778,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(1278,0)"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="msup" transform="translate(1850,0)"><g data-mml-node="mi"><path data-c="1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(523,363) scale(0.707)"><path data-c="1D464" d="M580 385Q580 406 599 424T641 443Q659 443 674 425T690 368Q690 339 671 253Q656 197 644 161T609 80T554 12T482 -11Q438 -11 404 5T355 48Q354 47 352 44Q311 -11 252 -11Q226 -11 202 -5T155 14T118 53T104 116Q104 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Q21 293 29 315T52 366T96 418T161 441Q204 441 227 416T250 358Q250 340 217 250T184 111Q184 65 205 46T258 26Q301 26 334 87L339 96V119Q339 122 339 128T340 136T341 143T342 152T345 165T348 182T354 206T362 238T373 281Q402 395 406 404Q419 431 449 431Q468 431 475 421T483 402Q483 389 454 274T422 142Q420 131 420 107V100Q420 85 423 71T442 42T487 26Q558 26 600 148Q609 171 620 213T632 273Q632 306 619 325T593 357T580 385Z"></path></g></g></g></g></g></g></svg></mjx-container></span></p>
+<p><span class="math display"><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -1.601ex;" xmlns="http://www.w3.org/2000/svg" width="21.815ex" height="3.919ex" role="img" focusable="false" viewBox="0 -1024.6 9642.4 1732.4"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="munder"><g data-mml-node="mo" transform="translate(224.7,0)"><path data-c="6C" d="M42 46H56Q95 46 103 60V68Q103 77 103 91T103 124T104 167T104 217T104 272T104 329Q104 366 104 407T104 482T104 542T103 586T103 603Q100 622 89 628T44 637H26V660Q26 683 28 683L38 684Q48 685 67 686T104 688Q121 689 141 690T171 693T182 694H185V379Q185 62 186 60Q190 52 198 49Q219 46 247 46H263V0H255L232 1Q209 2 183 2T145 3T107 3T57 1L34 0H26V46H42Z"></path><path data-c="69" d="M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z" transform="translate(278,0)"></path><path data-c="6D" d="M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q351 442 364 440T387 434T406 426T421 417T432 406T441 395T448 384T452 374T455 366L457 361L460 365Q463 369 466 373T475 384T488 397T503 410T523 422T546 432T572 439T603 442Q729 442 740 329Q741 322 741 190V104Q741 66 743 59T754 49Q775 46 803 46H819V0H811L788 1Q764 2 737 2T699 3Q596 3 587 0H579V46H595Q656 46 656 62Q657 64 657 200Q656 335 655 343Q649 371 635 385T611 402T585 404Q540 404 506 370Q479 343 472 315T464 232V168V108Q464 78 465 68T468 55T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z" transform="translate(556,0)"></path></g><g data-mml-node="TeXAtom" transform="translate(0,-600) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mi"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(600,0)"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(1600,0)"><path data-c="221E" d="M55 217Q55 305 111 373T254 442Q342 442 419 381Q457 350 493 303L507 284L514 294Q618 442 747 442Q833 442 888 374T944 214Q944 128 889 59T743 -11Q657 -11 580 50Q542 81 506 128L492 147L485 137Q381 -11 252 -11Q166 -11 111 57T55 217ZM907 217Q907 285 869 341T761 397Q740 397 720 392T682 378T648 359T619 335T594 310T574 285T559 263T548 246L543 238L574 198Q605 158 622 138T664 94T714 61T765 51Q827 51 867 100T907 217ZM92 214Q92 145 131 89T239 33Q357 33 456 193L425 233Q364 312 334 337Q285 380 233 380Q171 380 132 331T92 214Z"></path></g></g></g><g data-mml-node="mo" transform="translate(1838.5,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(2227.5,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2949.7,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="msup" transform="translate(3949.9,0)"><g data-mml-node="mn"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(533,413) scale(0.707)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g></g><g data-mml-node="mo" transform="translate(5179.4,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="msup" transform="translate(6179.6,0)"><g data-mml-node="mn"><path data-c="33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></g><g data-mml-node="mi" transform="translate(533,413) scale(0.707)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g></g><g data-mml-node="msup" transform="translate(7186.9,0)"><g data-mml-node="mo"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mfrac" transform="translate(422,413) scale(0.707)"><g data-mml-node="mn" transform="translate(1225.7,394) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mrow" transform="translate(220,-345) scale(0.707)"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mo" transform="translate(572,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(1350,0)"><path data-c="73" d="M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z"></path><path data-c="69" d="M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z" transform="translate(394,0)"></path><path data-c="6E" d="M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q450 438 463 329Q464 322 464 190V104Q464 66 466 59T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z" transform="translate(672,0)"></path></g><g data-mml-node="mo" transform="translate(2578,0)"><path data-c="2061" d=""></path></g><g data-mml-node="mi" transform="translate(2744.7,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g></g><rect width="2565" height="60" x="120" y="220"></rect></g></g></g></g></svg></mjx-container></span></p>
+<h2 id="codeing-highlights">Codeing Highlights</h2>
+<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>{</span><br><span class="line">  <span class="keyword">return</span> main();</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>This is the footnote.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
 
             </div>
 
@@ -376,7 +568,7 @@
         <li><strong>Created at:</strong> 2023-07-12 19:21:43</li>
         
             <li>
-                <strong>Updated at:</strong> 2023-07-15 11:12:31
+                <strong>Updated at:</strong> 2023-07-15 18:08:01
             </li>
         
         <li>
@@ -498,7 +690,7 @@
     <div class="post-toc">
         <div class="toc-title">On this page</div>
         <div class="page-title">Markdown Cheat Sheet</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-Syntax"><span class="nav-text">Basic Syntax</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Heading"><span class="nav-text">Heading</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Bold"><span class="nav-text">Bold</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Italic"><span class="nav-text">Italic</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Blockquote"><span class="nav-text">Blockquote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Ordered-List"><span class="nav-text">Ordered List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Unordered-List"><span class="nav-text">Unordered List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Code"><span class="nav-text">Code</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Horizontal-Rule"><span class="nav-text">Horizontal Rule</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-text">---</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Link"><span class="nav-text">Link</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Image"><span class="nav-text">Image</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended-Syntax"><span class="nav-text">Extended Syntax</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Table"><span class="nav-text">Table</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Fenced-Code-Block"><span class="nav-text">Fenced Code Block</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Footnote"><span class="nav-text">Footnote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Strikethrough"><span class="nav-text">Strikethrough</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Task-List"><span class="nav-text">Task List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Emoji"><span class="nav-text">Emoji</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Highlight"><span class="nav-text">Highlight</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Subscript"><span class="nav-text">Subscript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Superscript"><span class="nav-text">Superscript</span></a></li></ol></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#basic-syntax"><span class="nav-text">Basic Syntax</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#heading"><span class="nav-text">Heading</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bold"><span class="nav-text">Bold</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#italic"><span class="nav-text">Italic</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#blockquote"><span class="nav-text">Blockquote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ordered-list"><span class="nav-text">Ordered List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#unordered-list"><span class="nav-text">Unordered List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#code"><span class="nav-text">Code</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#horizontal-rule"><span class="nav-text">Horizontal Rule</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#section"><span class="nav-text">---</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#link"><span class="nav-text">Link</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#image"><span class="nav-text">Image</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#extended-syntax"><span class="nav-text">Extended Syntax</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#table"><span class="nav-text">Table</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#fenced-code-block"><span class="nav-text">Fenced Code Block</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#footnote"><span class="nav-text">Footnote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#strikethrough"><span class="nav-text">Strikethrough</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#task-list"><span class="nav-text">Task List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#emoji"><span class="nav-text">Emoji</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#highlight"><span class="nav-text">Highlight</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#subscript"><span class="nav-text">Subscript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#superscript"><span class="nav-text">Superscript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#math"><span class="nav-text">Math</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#codeing-highlights"><span class="nav-text">Codeing Highlights</span></a></li></ol>
 
     </div>
 </div>
