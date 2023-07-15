@@ -26,12 +26,9 @@
     
       
       
-    <summary type="html">&lt;div id=&quot;TOC&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#prerequisites&quot;
-id=&quot;toc-prerequisites&quot;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#prerequisites-1&quot;
-id=&quot;toc-prereq</summary>
+    <summary type="html">&lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;First and foremost, to build a static website with Hexo and Github,
+you need to install these t</summary>
       
     
     
@@ -55,11 +52,9 @@ id=&quot;toc-prereq</summary>
     
       
       
-    <summary type="html">&lt;div id=&quot;TOC&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#basic-syntax&quot; id=&quot;toc-basic-syntax&quot;&gt;Basic Syntax&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#heading&quot; id=&quot;toc-heading&quot;&gt;Heading&lt;</summary>
+    <summary type="html">&lt;p&gt;This Markdown cheat sheet provides a quick overview of all the
+Markdown syntax elements. It can’t cover every edge case, so if you need
+m</summary>
       
     
     
@@ -83,12 +78,9 @@ id=&quot;toc-prereq</summary>
     
       
       
-    <summary type="html">&lt;div id=&quot;TOC&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#how-to-configure-next-theme&quot;
-id=&quot;toc-how-to-configure-next-theme&quot;&gt;How to configure NexT theme?&lt;/a&gt;
-&lt;ul&gt;
-&lt;l</summary>
+    <summary type="html">&lt;h1 id=&quot;how-to-configure-next-theme&quot;&gt;How to configure NexT theme?&lt;/h1&gt;
+&lt;p&gt;The traditional approach is to edit &lt;a class=&quot;link&quot; 
+ href=&quot;https:</summary>
       
     
     
@@ -114,11 +106,7 @@ id=&quot;toc-how-to-configure-next-theme&quot;&gt;How to configure NexT theme?&l
     
       
       
-    <summary type="html">&lt;div id=&quot;TOC&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#quick-start&quot; id=&quot;toc-quick-start&quot;&gt;Quick Start&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#create-a-new-post&quot; id=&quot;toc-create-a-n</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo &lt;i class=&quot;fa-regular fa-arrow-up-right-from-square fa-sm&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is yo</summary>
       
     
     

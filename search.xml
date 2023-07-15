@@ -3,21 +3,7 @@
   <entry>
     <title>Hello World</title>
     <url>/2023/07/12/hello-world/</url>
-    <content><![CDATA[<div id="TOC">
-<ul>
-<li><a href="#quick-start" id="toc-quick-start">Quick Start</a>
-<ul>
-<li><a href="#create-a-new-post" id="toc-create-a-new-post">Create a new
-post</a></li>
-<li><a href="#run-server" id="toc-run-server">Run server</a></li>
-<li><a href="#generate-static-files"
-id="toc-generate-static-files">Generate static files</a></li>
-<li><a href="#deploy-to-remote-sites"
-id="toc-deploy-to-remote-sites">Deploy to remote sites</a></li>
-</ul></li>
-</ul>
-</div>
-<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very
 first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for
 more info. If you get any problems when using Hexo, you can find the
 answer in <a class="link" 
@@ -52,15 +38,7 @@ you can ask me on <a class="link"
   <entry>
     <title>Install Hexo and Initialise</title>
     <url>/2023/07/12/install_hexo/</url>
-    <content><![CDATA[<div id="TOC">
-<ul>
-<li><a href="#prerequisites"
-id="toc-prerequisites">Prerequisites</a></li>
-<li><a href="#prerequisites-1"
-id="toc-prerequisites-1">Prerequisites</a></li>
-</ul>
-</div>
-<h2 id="prerequisites">Prerequisites</h2>
+    <content><![CDATA[<h2 id="prerequisites">Prerequisites</h2>
 <p>First and foremost, to build a static website with Hexo and Github,
 you need to install these tools on your laptop/desktop:</p>
 <div class="highlight-container" data-rel="Console"><figure class="iseeu highlight console"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure></div>
@@ -88,46 +66,7 @@ _config.yml. You can customise the settings as you like.</p>
   <entry>
     <title>Markdown Cheat Sheet</title>
     <url>/2023/07/12/markdown-cheat-sheet/</url>
-    <content><![CDATA[<div id="TOC">
-<ul>
-<li><a href="#basic-syntax" id="toc-basic-syntax">Basic Syntax</a>
-<ul>
-<li><a href="#heading" id="toc-heading">Heading</a></li>
-<li><a href="#bold" id="toc-bold">Bold</a></li>
-<li><a href="#italic" id="toc-italic">Italic</a></li>
-<li><a href="#blockquote" id="toc-blockquote">Blockquote</a></li>
-<li><a href="#ordered-list" id="toc-ordered-list">Ordered List</a></li>
-<li><a href="#unordered-list" id="toc-unordered-list">Unordered
-List</a></li>
-<li><a href="#code" id="toc-code">Code</a></li>
-<li><a href="#horizontal-rule" id="toc-horizontal-rule">Horizontal
-Rule</a></li>
-</ul></li>
-<li><a href="#section" id="toc-section"><code>---</code></a>
-<ul>
-<li><a href="#link" id="toc-link">Link</a></li>
-<li><a href="#image" id="toc-image">Image</a></li>
-</ul></li>
-<li><a href="#extended-syntax" id="toc-extended-syntax">Extended
-Syntax</a>
-<ul>
-<li><a href="#table" id="toc-table">Table</a></li>
-<li><a href="#fenced-code-block" id="toc-fenced-code-block">Fenced Code
-Block</a></li>
-<li><a href="#footnote" id="toc-footnote">Footnote</a></li>
-<li><a href="#strikethrough" id="toc-strikethrough">Strikethrough</a></li>
-<li><a href="#task-list" id="toc-task-list">Task List</a></li>
-<li><a href="#emoji" id="toc-emoji">Emoji</a></li>
-<li><a href="#highlight" id="toc-highlight">Highlight</a></li>
-<li><a href="#subscript" id="toc-subscript">Subscript</a></li>
-<li><a href="#superscript" id="toc-superscript">Superscript</a></li>
-<li><a href="#math" id="toc-math">Math</a></li>
-</ul></li>
-<li><a href="#codeing-highlights" id="toc-codeing-highlights">Codeing
-Highlights</a></li>
-</ul>
-</div>
-<p>This Markdown cheat sheet provides a quick overview of all the
+    <content><![CDATA[<p>This Markdown cheat sheet provides a quick overview of all the
 Markdown syntax elements. It can’t cover every edge case, so if you need
 more information about any of these elements, refer to the reference
 guides for <a class="link" href="https://www.markdownguide.org/basic-syntax">basic
@@ -241,17 +180,7 @@ X<sup>2</sup></p>
   <entry>
     <title>NexT theme configuration</title>
     <url>/2023/07/12/next_theme_cofig/</url>
-    <content><![CDATA[<div id="TOC">
-<ul>
-<li><a href="#how-to-configure-next-theme"
-id="toc-how-to-configure-next-theme">How to configure NexT theme?</a>
-<ul>
-<li><a href="#usage" id="toc-usage">Usage</a></li>
-<li><a href="#usage-1" id="toc-usage-1">Usage</a></li>
-</ul></li>
-</ul>
-</div>
-<h1 id="how-to-configure-next-theme">How to configure NexT theme?</h1>
+    <content><![CDATA[<h1 id="how-to-configure-next-theme">How to configure NexT theme?</h1>
 <p>The traditional approach is to edit <a class="link" 
  href="https://theme-next.js.org/docs/getting-started/configuration.html" >NexT
 config <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> file (thems/next/_config.yml or
