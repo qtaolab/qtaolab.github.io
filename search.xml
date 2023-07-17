@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Install Hexo and Initialise</title>
+    <url>/post/ff452f78.html</url>
+    <content><![CDATA[<h2 id="prerequisites">Prerequisites</h2>
+<p>First and foremost, to build a static website with Hexo and Github,
+you need to install these tools on your laptop/desktop:</p>
+<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
+<h2 id="prerequisites-1">Prerequisites</h2>
+<p>First and foremost, to build a static website with Hexo and Github,
+you need to install these tools on your laptop/desktop:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
+<p>Step 1: Install Hexo and Initialise Your Website<br />
+You can use npm to install Hexo:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir </span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init mywebsite</span><br></pre></td></tr></table></figure>
+<p>Next step, enter the directory of mywebsite and install all relative
+packages with npm:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> mywebsite</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>That’s it. You’ve built a basic static website. The settings file is
+_config.yml. You can customise the settings as you like.</p>
+]]></content>
+      <categories>
+        <category>Theme</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>theme</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/post/4a17b156.html</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -195,34 +223,6 @@ directory and rename it to _config.next.yml.</p>
         <tag>hexo</tag>
         <tag>theme</tag>
         <tag>configuration</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Install Hexo and Initialise</title>
-    <url>/post/ff452f78.html</url>
-    <content><![CDATA[<h2 id="prerequisites">Prerequisites</h2>
-<p>First and foremost, to build a static website with Hexo and Github,
-you need to install these tools on your laptop/desktop:</p>
-<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
-<h2 id="prerequisites-1">Prerequisites</h2>
-<p>First and foremost, to build a static website with Hexo and Github,
-you need to install these tools on your laptop/desktop:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
-<p>Step 1: Install Hexo and Initialise Your Website<br />
-You can use npm to install Hexo:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir </span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init mywebsite</span><br></pre></td></tr></table></figure>
-<p>Next step, enter the directory of mywebsite and install all relative
-packages with npm:</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> mywebsite</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-<p>That’s it. You’ve built a basic static website. The settings file is
-_config.yml. You can customise the settings as you like.</p>
-]]></content>
-      <categories>
-        <category>Theme</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>theme</tag>
       </tags>
   </entry>
 </search>
