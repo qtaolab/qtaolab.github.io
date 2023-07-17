@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Install Hexo and Initialise</title>
-    <url>/post/ff452f78.html</url>
-    <content><![CDATA[<h2 id="prerequisites">Prerequisites</h2>
-<p>First and foremost, to build a static website with Hexo and Github,
-you need to install these tools on your laptop/desktop:</p>
-<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
-<h2 id="prerequisites-1">Prerequisites</h2>
-<p>First and foremost, to build a static website with Hexo and Github,
-you need to install these tools on your laptop/desktop:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
-<p>Step 1: Install Hexo and Initialise Your Website<br />
-You can use npm to install Hexo:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir </span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init mywebsite</span><br></pre></td></tr></table></figure>
-<p>Next step, enter the directory of mywebsite and install all relative
-packages with npm:</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> mywebsite</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-<p>That’s it. You’ve built a basic static website. The settings file is
-_config.yml. You can customise the settings as you like.</p>
-]]></content>
-      <categories>
-        <category>Theme</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>theme</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/post/4a17b156.html</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -49,66 +21,6 @@ _config.yml. You can customise the settings as you like.</p>
       <tags>
         <tag>hexo</tag>
         <tag>install</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT theme configuration</title>
-    <url>/post/5e7f084d.html</url>
-    <content><![CDATA[<h1 id="how-to-configure-next-theme">How to configure NexT theme?</h1>
-<p>The traditional approach is to edit <a
-href="https://theme-next.js.org/docs/getting-started/configuration.html">NexT
-config</a> file (thems/next/_config.yml or
-node_modules/hexo-theme-next/_config.yml) directly. However, the config
-file will be overwritten when upgrade NexT theme via git or npm, which
-brings inconvenience to the configuration of the theme.</p>
-<p>At present, NexT encourages users to use the Alternate Theme Config.
-It's a feature of Hexo and the documentation is here: Hexo
-Configuration.</p>
-<p>This tutorial shows you how to configure NexT using Alternate Theme
-Config. Please choose only one of the following solutions and resume
-next steps.</p>
-<p>_config.[name].yml<br />
-With this way, all your theme configurations locate in config file
-/_config.[name].yml. Replace [name] with the value of theme option in
-Hexo config file. For NexT theme, the file name is _config.next.yml by
-default.</p>
-<h3 id="usage">Usage</h3>
-<p>Please ensure you are using Hexo 5.0 or later.</p>
-<p>Create a config file in site's root directory, e.g.
-_config.next.yml.</p>
-<p>Copy needed NexT theme options from NexT config file into this config
-file. If it is the first time to install NexT, then copy the whole NexT
-config file by the following command:</p>
-<ul>
-<li><p>Installed through npm<br />
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure></p></li>
-<li><p>Installed through Git<br />
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp themes/next/_config.yml _config.next.yml</span><br><span class="line">theme_config</span><br></pre></td></tr></table></figure></p></li>
-</ul>
-<p>With this way, all your Hexo and NexT configurations locate in main
-Hexo config file. You don't need to edit NexT config file or create any
-new files. But you need to keep up indentation within theme_config
-option.</p>
-<h3 id="usage-1">Usage</h3>
-<p>Copy needed NexT theme options from NexT config file into Hexo config
-file, then</p>
-<p>Move all these settings to the right with two spaces indentation (in
-Visual Studio Code: select all strings, CTRL + ]).<br />
-Add theme_config: parameter above all this settings.<br />
-next.yml (Deprecated)<br />
-Older versions of NexT theme also provide another configuration method,
-which is to place the theme configuration in the /source/_data/next.yml
-file. This method is deprecated, please use _config.next.yml instead. If
-the /source/_data/next.yml file exists, move it to the Hexo root
-directory and rename it to _config.next.yml.</p>
-]]></content>
-      <categories>
-        <category>Theme</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>theme</tag>
-        <tag>configuration</tag>
       </tags>
   </entry>
   <entry>
@@ -223,6 +135,94 @@ X<sup>2</sup></p>
       <tags>
         <tag>markdown</tag>
         <tag>cheatsheet</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT theme configuration</title>
+    <url>/post/5e7f084d.html</url>
+    <content><![CDATA[<h1 id="how-to-configure-next-theme">How to configure NexT theme?</h1>
+<p>The traditional approach is to edit <a
+href="https://theme-next.js.org/docs/getting-started/configuration.html">NexT
+config</a> file (thems/next/_config.yml or
+node_modules/hexo-theme-next/_config.yml) directly. However, the config
+file will be overwritten when upgrade NexT theme via git or npm, which
+brings inconvenience to the configuration of the theme.</p>
+<p>At present, NexT encourages users to use the Alternate Theme Config.
+It's a feature of Hexo and the documentation is here: Hexo
+Configuration.</p>
+<p>This tutorial shows you how to configure NexT using Alternate Theme
+Config. Please choose only one of the following solutions and resume
+next steps.</p>
+<p>_config.[name].yml<br />
+With this way, all your theme configurations locate in config file
+/_config.[name].yml. Replace [name] with the value of theme option in
+Hexo config file. For NexT theme, the file name is _config.next.yml by
+default.</p>
+<h3 id="usage">Usage</h3>
+<p>Please ensure you are using Hexo 5.0 or later.</p>
+<p>Create a config file in site's root directory, e.g.
+_config.next.yml.</p>
+<p>Copy needed NexT theme options from NexT config file into this config
+file. If it is the first time to install NexT, then copy the whole NexT
+config file by the following command:</p>
+<ul>
+<li><p>Installed through npm<br />
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure></p></li>
+<li><p>Installed through Git<br />
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp themes/next/_config.yml _config.next.yml</span><br><span class="line">theme_config</span><br></pre></td></tr></table></figure></p></li>
+</ul>
+<p>With this way, all your Hexo and NexT configurations locate in main
+Hexo config file. You don't need to edit NexT config file or create any
+new files. But you need to keep up indentation within theme_config
+option.</p>
+<h3 id="usage-1">Usage</h3>
+<p>Copy needed NexT theme options from NexT config file into Hexo config
+file, then</p>
+<p>Move all these settings to the right with two spaces indentation (in
+Visual Studio Code: select all strings, CTRL + ]).<br />
+Add theme_config: parameter above all this settings.<br />
+next.yml (Deprecated)<br />
+Older versions of NexT theme also provide another configuration method,
+which is to place the theme configuration in the /source/_data/next.yml
+file. This method is deprecated, please use _config.next.yml instead. If
+the /source/_data/next.yml file exists, move it to the Hexo root
+directory and rename it to _config.next.yml.</p>
+]]></content>
+      <categories>
+        <category>Theme</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>theme</tag>
+        <tag>configuration</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Install Hexo and Initialise</title>
+    <url>/post/ff452f78.html</url>
+    <content><![CDATA[<h2 id="prerequisites">Prerequisites</h2>
+<p>First and foremost, to build a static website with Hexo and Github,
+you need to install these tools on your laptop/desktop:</p>
+<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
+<h2 id="prerequisites-1">Prerequisites</h2>
+<p>First and foremost, to build a static website with Hexo and Github,
+you need to install these tools on your laptop/desktop:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
+<p>Step 1: Install Hexo and Initialise Your Website<br />
+You can use npm to install Hexo:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir </span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init mywebsite</span><br></pre></td></tr></table></figure>
+<p>Next step, enter the directory of mywebsite and install all relative
+packages with npm:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> mywebsite</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>That’s it. You’ve built a basic static website. The settings file is
+_config.yml. You can customise the settings as you like.</p>
+]]></content>
+      <categories>
+        <category>Theme</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>theme</tag>
       </tags>
   </entry>
 </search>
