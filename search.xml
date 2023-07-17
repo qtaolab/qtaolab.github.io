@@ -2,31 +2,19 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/2023/07/12/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very
-first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a class="link" 
- href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or
-you can ask me on <a class="link" 
- href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link" 
- href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="run-server">Run server</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link" 
- href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-<p>More info: <a class="link" 
- href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
+    <url>/post/4a17b156.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ab9a5913af34b2653f2500cded0023a4a879fe4c4077e09747ef72c8dd87d34c">ad7d254e4cedb0b6c273e1dd369b5e815dbb9d0dba45bd42a5fef77de48a78b00931a15b85c4879d70251405ccd63469a82c32a9bca6b7852bd53868c0b3892d89dd2696342aa72b0c2208574ecc1b16741d468c5c04f9734919a5a6ee4f0cad065b3826016afb9991944caa3a86f6c54050af4b941d8c9b1705b1f0cc572f5d8608d7ff5907692aa840a21adc6b0d500f10600e36b997adfae220a5675083a4474b4819da786f67b86cbb183f10d4a4c7aa8b711f449a26a95b229c57080804b48d601c94fab73b308dc92bf7ade225102b7547f7d5c19dff6d3281b7dc49eccd46f6f9194e1def48137851f6eccded31100dae4c61909f8ed2de219537e6c4c4d73bfb91bed71a4de26b80cd20fba0bdc0be07ed9155a08d489bbc2a3dcbf6f4c31739ff958383df1fd93a33b3502acb6e4470e95d15a1a0ae06ca55aaadd51d0bef4c58fffc096e90ca46c52a8983b7e594a3fb676a29675ca4d594f1df61ed62269e880f8cedd3473ef095a43528fc9e871f748d1d6a63aa96f65fb7beca127bdb98fb6ebe2c4a87e54d7235f8e9d5e208b0ac4d9ed9bdcab647b6e24a6011becbf5804b5836807d30492000f99fc664c45b1f062866dfc7c3c927470034cce11f28f7950fdc195932bb9074ce49c8650e682c597a9ac87bd7dd9517754131582717eafd484b8ee7e31a434732f5c2b081679c19c6baaf95e9174c47cddd91e6527ebf616403be312bd79c39150d69a41a1cc7c398a7c5356492ba3cf22ac58b071c4be0c865f3290b0f89e7ad60c2c4f7a0f495b81a50e1c1e4e5e66111b4cf0708d3abfe78acaa28fca5c46594d2bf3170a623f72029f921dbae0cb4ccf5667b50b4a0f96b9fd65a09cfd95b8973ca6adea2354467a8181e1afb02926f09ed80294e5f2855615c991e6cf680aeac983dc673f32bc66a35e12421522080f65af5fa7cb39f9edd2a884057bd20d3826a36781d1a398b05ff9b2a7220ac5b3d31114090799a09b30a3376819f202ca6e6647cda40898e239b19e6598c17c04faf69761b02e514bd2bc15d5cdcc0e1b0aa96e7b52e2645aa6b03d63822aadbef62fe635ac097318e3410604c3fedcf615b0d8322eb59c63f35e35c21d093553508fe30060447f87c56da9fd2e6b2fc945f265b11637cd6194dd51807ae914239d9b8d92dac93c0c71db76a627a12df4fb140bbcf2cd711daa028fe942a3f7e593fc7032cb0fc5e0b5debd92b5c6e59e3bc8cbf1326d4c8cced7b98739976f1507302e656a8b1af4f77f0bc2bc897ba458c15e3d981ab2376429270a95bfeac9289a695af3d97a92c046750c063d39dabed74bba03f312825dda95e8e971b33fa9d2ef6ce672bb19034fe568d8ec74f0eae670b81e3172f1f8147933000f4ba45bf805e8584a46049c216b17a60d47003632ff42a35c2a6d3665742cd5f9dbb6ca5279f21144a6dd94d7bf4609099cd54310cb5cb534bcdc25224dd2df38ba1b6ebe27f5463e447d0f3fb20a21a05d50e3ab279830e4ff09a668b32cf80d29612dbff33e2495a7c4cb444f6b66467b4d447e92e8df1e2ab8211ec4321e1ae232748b7be1b1ec09bfa3bbe9ac201edb393bc15f46693ba709cb6a1924322170cfbe102b84f88d150ad760ce664c74accf926596c1fe8e9468c21e8d1b7755110203ff2345bc41d02701cc750e2b7adddc592654732aee2a9cd845007d55a3160e990559361488db94eee487dc8b7fb1bf21bc1412a7657afe5cf50f9267b35925bda9c7bdbd5d911fac4df2bab68680470901ae03ada3d78ac242928c6f38f94dc20213fb373ac7a8e921940afac6e4f8f10b2452ee59f02c2edfa60ac86563c22409c87f44c4af7319483fb4a98082c64e7f2d4c355992dfb8276b2ed8e6577573448fb90cfdebbe53fe45121abf40c06f71b07e8f307c1fff6ba1a1d27638feb2333f6dcdb3986ae7fd7acf4efa2ebc3ee12fe314c734e15ae527f72f3f19dd4a2b9c05bfaa986dc2dd06602f7d13be1d2bac442125aeafe9dd0d815830f00c1815d47edbac9d92bb333316557f772014c1cba6027696b84f3373bc6e219090ed3173729daadd8e9f678665d04bd3ebf72507884e19b261e69beaafd759a28b1a2169da6919065a458fd2f4f10d15ab0f1ccb54173f33c00ef53a16a44b94c50307a9845f3b37a0e58c441371e4d61c343518fabe54c6ad51dff4ae0a5cab8a02b2693441e1e9c9ee860ba01c9eb046c675fe9a38b3c955ba9cbd00fb28b9d26e247cbb2217e022b88067cf89b2971c0105439f281ba57397b58583064e9a80b371bb4d604cd87a49d5a8d097c6c7c7f0c0db0405b8c9fb1d6604f96c11ddac0e447823e69ee1d35bf6da29e604cc8176c1ed07c0468210143525f9d289f7512aa811ab34a87bd23aa1a446371966dc70401c36cc70053546ef8be773ae77ec3b0eedc901bc31ea9cf15a0abd180f59cf8504d425246202eabe4ba91fcc8bb1b630ef454ee9ef0574f3a1a5f6b44c96ae14c51a5b8f661a0a9856bb3f08d0bb036fb8bacdf757b49ae1803c138bc3baa410e6947d2d5c6ff436020a2f2bae87cf3bb5118170be4bb365657486fe54fb64f18725df0662593e1b6ba9816b14d</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Testing password is cac381</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
@@ -36,42 +24,14 @@ you can ask me on <a class="link"
       </tags>
   </entry>
   <entry>
-    <title>Install Hexo and Initialise</title>
-    <url>/2023/07/12/install_hexo/</url>
-    <content><![CDATA[<h2 id="prerequisites">Prerequisites</h2>
-<p>First and foremost, to build a static website with Hexo and Github,
-you need to install these tools on your laptop/desktop:</p>
-<div class="highlight-container" data-rel="Console"><figure class="iseeu highlight console"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure></div>
-<h2 id="prerequisites-1">Prerequisites</h2>
-<p>First and foremost, to build a static website with Hexo and Github,
-you need to install these tools on your laptop/desktop:</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure></div>
-<p>Step 1: Install Hexo and Initialise Your Website<br />
-You can use npm to install Hexo:</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir </span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init mywebsite</span><br></pre></td></tr></table></figure></div>
-<p>Next step, enter the directory of mywebsite and install all relative
-packages with npm:</p>
-<div class="highlight-container" data-rel="Sh"><figure class="iseeu highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> mywebsite</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></div>
-<p>That’s it. You’ve built a basic static website. The settings file is
-_config.yml. You can customise the settings as you like.</p>
-]]></content>
-      <categories>
-        <category>Theme</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>theme</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown Cheat Sheet</title>
-    <url>/2023/07/12/markdown-cheat-sheet/</url>
+    <url>/post/bafa2f31.html</url>
     <content><![CDATA[<p>This Markdown cheat sheet provides a quick overview of all the
 Markdown syntax elements. It can’t cover every edge case, so if you need
 more information about any of these elements, refer to the reference
-guides for <a class="link" href="https://www.markdownguide.org/basic-syntax">basic
-syntax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> and <a class="link" href="https://www.markdownguide.org/extended-syntax">extended
-syntax <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+guides for <a href="https://www.markdownguide.org/basic-syntax">basic
+syntax</a> and <a href="https://www.markdownguide.org/extended-syntax">extended
+syntax</a>.</p>
 <h2 id="basic-syntax">Basic Syntax</h2>
 <p>These are the elements outlined in John Gruber’s original design
 document. All Markdown applications support these elements.</p>
@@ -80,36 +40,36 @@ document. All Markdown applications support these elements.</p>
 ## H2<br>
 ### H3</p>
 <h3 id="bold">Bold</h3>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">**bold text**</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**bold text**</span><br></pre></td></tr></table></figure>
 <p><strong>bold text</strong></p>
 <h3 id="italic">Italic</h3>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">*italicized text*</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*italicized text*</span><br></pre></td></tr></table></figure>
 <p><em>italicized text</em></p>
 <h3 id="blockquote">Blockquote</h3>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; blockquote</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; blockquote</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>blockquote</p>
 </blockquote>
 <h3 id="ordered-list">Ordered List</h3>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. First item</span><br><span class="line">2. Second item</span><br><span class="line">3. Third item</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. First item</span><br><span class="line">2. Second item</span><br><span class="line">3. Third item</span><br></pre></td></tr></table></figure>
 <h3 id="unordered-list">Unordered List</h3>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">- First item</span><br><span class="line">- Second item</span><br><span class="line">- Third item</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- First item</span><br><span class="line">- Second item</span><br><span class="line">- Third item</span><br></pre></td></tr></table></figure>
 <h3 id="code">Code</h3>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">`code`</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`code`</span><br></pre></td></tr></table></figure>
 <p><code>code</code></p>
 <h3 id="horizontal-rule">Horizontal Rule</h3>
 <h2 id="section"><code>---</code></h2>
 <h3 id="link">Link</h3>
 <p><code>[Markdown Guide](https://www.markdownguide.org)</code><br>
-<a class="link" href="https://www.markdownguide.org">Markdown Guide <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<a href="https://www.markdownguide.org">Markdown Guide</a></p>
 <h3 id="image">Image</h3>
 <p><code>![alt text](https://www.markdownguide.org/assets/images/tux.png)</code><br>
-<img lazyload="" src="/images/loading.svg" data-src="https://www.markdownguide.org/assets/images/tux.png" alt="alt text"></p>
+<img src="https://www.markdownguide.org/assets/images/tux.png" alt="alt text"></p>
 <h2 id="extended-syntax">Extended Syntax</h2>
 <p>These elements extend the basic syntax by adding additional features.
 Not all Markdown applications support these elements.</p>
 <h3 id="table">Table</h3>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">| Syntax | Description |</span><br><span class="line">| ----------- | ----------- |</span><br><span class="line">| Header | Title |</span><br><span class="line">| Paragraph | Text |</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| Syntax | Description |</span><br><span class="line">| ----------- | ----------- |</span><br><span class="line">| Header | Title |</span><br><span class="line">| Paragraph | Text |</span><br></pre></td></tr></table></figure>
 <table>
 <thead>
 <tr class="header">
@@ -129,7 +89,7 @@ Not all Markdown applications support these elements.</p>
 </tbody>
 </table>
 <h3 id="fenced-code-block">Fenced Code Block</h3>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">{</span><br><span class="line">  "firstName": "John",</span><br><span class="line">  "lastName": "Smith",</span><br><span class="line">  "age": 25</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">{</span><br><span class="line">  "firstName": "John",</span><br><span class="line">  "lastName": "Smith",</span><br><span class="line">  "age": 25</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
 <h3 id="footnote">Footnote</h3>
 <p><code>[^1]</code></p>
 <p>Here's a sentence with a footnote. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
@@ -137,7 +97,7 @@ Not all Markdown applications support these elements.</p>
 <p><code>~~The world is flat.~~</code><br>
 <del>The world is flat.</del></p>
 <h3 id="task-list">Task List</h3>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [x] Write the press release</span><br><span class="line">- [ ] Update the website</span><br><span class="line">- [ ] Contact the media</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [x] Write the press release</span><br><span class="line">- [ ] Update the website</span><br><span class="line">- [ ] Contact the media</span><br></pre></td></tr></table></figure>
 <ul class="task-list">
 <li><label><input type="checkbox" checked="">Write the press
 release</label></li>
@@ -146,8 +106,8 @@ release</label></li>
 </ul>
 <h3 id="emoji">Emoji</h3>
 <p>That is so funny! <span class="github-emoji" data-alias="joy" style="font-size: 2em; font-weight: bold" data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8">😂</span></p>
-<p>(See also <a class="link" href="https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji">Copying
-and Pasting Emoji <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>)</p>
+<p>(See also <a href="https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji">Copying
+and Pasting Emoji</a>)</p>
 <h3 id="highlight">Highlight</h3>
 <p><code>I need to highlight these ==very important words==.</code><br>
 I need to highlight these <mark>very important words</mark>.</p>
@@ -161,7 +121,7 @@ X<sup>2</sup></p>
 <p><span class="math display"><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="18.58ex" height="2.582ex" role="img" focusable="false" viewBox="0 -891.2 8212.5 1141.2"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="TeXAtom" transform="translate(605,413) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(523,363) scale(0.707)"><path data-c="1D467" d="M347 338Q337 338 294 349T231 360Q211 360 197 356T174 346T162 335T155 324L153 320Q150 317 138 317Q117 317 117 325Q117 330 120 339Q133 378 163 406T229 440Q241 442 246 442Q271 442 291 425T329 392T367 375Q389 375 411 408T434 441Q435 442 449 442H462Q468 436 468 434Q468 430 463 420T449 399T432 377T418 358L411 349Q368 298 275 214T160 106L148 94L163 93Q185 93 227 82T290 71Q328 71 360 90T402 140Q406 149 409 151T424 153Q443 153 443 143Q443 138 442 134Q425 72 376 31T278 -11Q252 -11 232 6T193 40T155 57Q111 57 76 -3Q70 -11 59 -11H54H41Q35 -5 35 -2Q35 13 93 84Q132 129 225 214T340 322Q352 338 347 338Z"></path></g></g></g></g><g data-mml-node="mo" transform="translate(1570.4,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mo" transform="translate(2626.2,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(3015.2,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(3737.4,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="msup" transform="translate(4737.7,0)"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mi"><path data-c="65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"></path></g></g><g data-mml-node="mi" transform="translate(477,413) scale(0.707)"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g></g><g data-mml-node="msup" transform="translate(5669.1,0)"><g data-mml-node="mo"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="TeXAtom" transform="translate(422,413) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mo"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="mn" transform="translate(778,0)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(1278,0)"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="msup" transform="translate(1850,0)"><g data-mml-node="mi"><path data-c="1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(523,363) scale(0.707)"><path data-c="1D464" d="M580 385Q580 406 599 424T641 443Q659 443 674 425T690 368Q690 339 671 253Q656 197 644 161T609 80T554 12T482 -11Q438 -11 404 5T355 48Q354 47 352 44Q311 -11 252 -11Q226 -11 202 -5T155 14T118 53T104 116Q104 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Q21 293 29 315T52 366T96 418T161 441Q204 441 227 416T250 358Q250 340 217 250T184 111Q184 65 205 46T258 26Q301 26 334 87L339 96V119Q339 122 339 128T340 136T341 143T342 152T345 165T348 182T354 206T362 238T373 281Q402 395 406 404Q419 431 449 431Q468 431 475 421T483 402Q483 389 454 274T422 142Q420 131 420 107V100Q420 85 423 71T442 42T487 26Q558 26 600 148Q609 171 620 213T632 273Q632 306 619 325T593 357T580 385Z"></path></g></g></g></g></g></g></svg></mjx-container></span></p>
 <p><span class="math display"><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -1.601ex;" xmlns="http://www.w3.org/2000/svg" width="21.815ex" height="3.919ex" role="img" focusable="false" viewBox="0 -1024.6 9642.4 1732.4"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="munder"><g data-mml-node="mo" transform="translate(224.7,0)"><path data-c="6C" d="M42 46H56Q95 46 103 60V68Q103 77 103 91T103 124T104 167T104 217T104 272T104 329Q104 366 104 407T104 482T104 542T103 586T103 603Q100 622 89 628T44 637H26V660Q26 683 28 683L38 684Q48 685 67 686T104 688Q121 689 141 690T171 693T182 694H185V379Q185 62 186 60Q190 52 198 49Q219 46 247 46H263V0H255L232 1Q209 2 183 2T145 3T107 3T57 1L34 0H26V46H42Z"></path><path data-c="69" d="M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z" transform="translate(278,0)"></path><path data-c="6D" d="M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q351 442 364 440T387 434T406 426T421 417T432 406T441 395T448 384T452 374T455 366L457 361L460 365Q463 369 466 373T475 384T488 397T503 410T523 422T546 432T572 439T603 442Q729 442 740 329Q741 322 741 190V104Q741 66 743 59T754 49Q775 46 803 46H819V0H811L788 1Q764 2 737 2T699 3Q596 3 587 0H579V46H595Q656 46 656 62Q657 64 657 200Q656 335 655 343Q649 371 635 385T611 402T585 404Q540 404 506 370Q479 343 472 315T464 232V168V108Q464 78 465 68T468 55T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z" transform="translate(556,0)"></path></g><g data-mml-node="TeXAtom" transform="translate(0,-600) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mi"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mo" transform="translate(600,0)"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(1600,0)"><path data-c="221E" d="M55 217Q55 305 111 373T254 442Q342 442 419 381Q457 350 493 303L507 284L514 294Q618 442 747 442Q833 442 888 374T944 214Q944 128 889 59T743 -11Q657 -11 580 50Q542 81 506 128L492 147L485 137Q381 -11 252 -11Q166 -11 111 57T55 217ZM907 217Q907 285 869 341T761 397Q740 397 720 392T682 378T648 359T619 335T594 310T574 285T559 263T548 246L543 238L574 198Q605 158 622 138T664 94T714 61T765 51Q827 51 867 100T907 217ZM92 214Q92 145 131 89T239 33Q357 33 456 193L425 233Q364 312 334 337Q285 380 233 380Q171 380 132 331T92 214Z"></path></g></g></g><g data-mml-node="mo" transform="translate(1838.5,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mn" transform="translate(2227.5,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(2949.7,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="msup" transform="translate(3949.9,0)"><g data-mml-node="mn"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="mi" transform="translate(533,413) scale(0.707)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g></g><g data-mml-node="mo" transform="translate(5179.4,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="msup" transform="translate(6179.6,0)"><g data-mml-node="mn"><path data-c="33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></g><g data-mml-node="mi" transform="translate(533,413) scale(0.707)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g></g><g data-mml-node="msup" transform="translate(7186.9,0)"><g data-mml-node="mo"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g><g data-mml-node="mfrac" transform="translate(422,413) scale(0.707)"><g data-mml-node="mn" transform="translate(1225.7,394) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mrow" transform="translate(220,-345) scale(0.707)"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mo" transform="translate(572,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(1350,0)"><path data-c="73" d="M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z"></path><path data-c="69" d="M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z" transform="translate(394,0)"></path><path data-c="6E" d="M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q450 438 463 329Q464 322 464 190V104Q464 66 466 59T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z" transform="translate(672,0)"></path></g><g data-mml-node="mo" transform="translate(2578,0)"><path data-c="2061" d=""></path></g><g data-mml-node="mi" transform="translate(2744.7,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g></g><rect width="2565" height="60" x="120" y="220"></rect></g></g></g></g></svg></mjx-container></span></p>
 <h2 id="codeing-highlights">Codeing Highlights</h2>
-<div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>{</span><br><span class="line">  <span class="keyword">return</span> main();</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>{</span><br><span class="line">  <span class="keyword">return</span> main();</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
 <aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
@@ -179,11 +139,11 @@ X<sup>2</sup></p>
   </entry>
   <entry>
     <title>NexT theme configuration</title>
-    <url>/2023/07/12/next_theme_cofig/</url>
+    <url>/post/5e7f084d.html</url>
     <content><![CDATA[<h1 id="how-to-configure-next-theme">How to configure NexT theme?</h1>
-<p>The traditional approach is to edit <a class="link" 
- href="https://theme-next.js.org/docs/getting-started/configuration.html" >NexT
-config <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> file (thems/next/_config.yml or
+<p>The traditional approach is to edit <a
+href="https://theme-next.js.org/docs/getting-started/configuration.html">NexT
+config</a> file (thems/next/_config.yml or
 node_modules/hexo-theme-next/_config.yml) directly. However, the config
 file will be overwritten when upgrade NexT theme via git or npm, which
 brings inconvenience to the configuration of the theme.</p>
@@ -207,9 +167,9 @@ file. If it is the first time to install NexT, then copy the whole NexT
 config file by the following command:</p>
 <ul>
 <li><p>Installed through npm<br />
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure></div></p></li>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure></p></li>
 <li><p>Installed through Git<br />
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp themes/next/_config.yml _config.next.yml</span><br><span class="line">theme_config</span><br></pre></td></tr></table></figure></div></p></li>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp themes/next/_config.yml _config.next.yml</span><br><span class="line">theme_config</span><br></pre></td></tr></table></figure></p></li>
 </ul>
 <p>With this way, all your Hexo and NexT configurations locate in main
 Hexo config file. You don't need to edit NexT config file or create any
@@ -235,6 +195,34 @@ directory and rename it to _config.next.yml.</p>
         <tag>hexo</tag>
         <tag>theme</tag>
         <tag>configuration</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Install Hexo and Initialise</title>
+    <url>/post/ff452f78.html</url>
+    <content><![CDATA[<h2 id="prerequisites">Prerequisites</h2>
+<p>First and foremost, to build a static website with Hexo and Github,
+you need to install these tools on your laptop/desktop:</p>
+<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
+<h2 id="prerequisites-1">Prerequisites</h2>
+<p>First and foremost, to build a static website with Hexo and Github,
+you need to install these tools on your laptop/desktop:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Install Node.js</span><br><span class="line">Install Git</span><br></pre></td></tr></table></figure>
+<p>Step 1: Install Hexo and Initialise Your Website<br />
+You can use npm to install Hexo:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir </span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init mywebsite</span><br></pre></td></tr></table></figure>
+<p>Next step, enter the directory of mywebsite and install all relative
+packages with npm:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> mywebsite</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>That’s it. You’ve built a basic static website. The settings file is
+_config.yml. You can customise the settings as you like.</p>
+]]></content>
+      <categories>
+        <category>Theme</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>theme</tag>
       </tags>
   </entry>
 </search>

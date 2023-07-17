@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Data Science for Healthy Futures -- Illuminating Well-being.</title>
+  <title>QTAO&#39;s LAB</title>
   
+  <subtitle>Data Science of people&#39;s Well-being</subtitle>
+  <link href="https://qtaolab.github.io/atom.xml" rel="self"/>
   
-  <link href="https://qtao3.github.io/atom.xml" rel="self"/>
-  
-  <link href="https://qtao3.github.io/"/>
-  <updated>2023-07-13T15:37:38.520Z</updated>
-  <id>https://qtao3.github.io/</id>
+  <link href="https://qtaolab.github.io/"/>
+  <updated>2023-07-16T18:13:50.470Z</updated>
+  <id>https://qtaolab.github.io/</id>
   
   <author>
-    <name>Qiushan Tao</name>
+    <name>QTAO&#39;s Lab</name>
     
   </author>
   
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Install Hexo and Initialise</title>
-    <link href="https://qtao3.github.io/2023/07/12/install_hexo/"/>
-    <id>https://qtao3.github.io/2023/07/12/install_hexo/</id>
+    <link href="https://qtaolab.github.io/post/ff452f78.html"/>
+    <id>https://qtaolab.github.io/post/ff452f78.html</id>
     <published>2023-07-12T23:56:26.000Z</published>
-    <updated>2023-07-13T15:37:38.520Z</updated>
+    <updated>2023-07-16T18:13:50.470Z</updated>
     
     
       
@@ -33,21 +33,21 @@ you need to install these t</summary>
     
     
     
-    <category term="Theme" scheme="https://qtao3.github.io/categories/Theme/"/>
+    <category term="Theme" scheme="https://qtaolab.github.io/categories/Theme/"/>
     
     
-    <category term="hexo" scheme="https://qtao3.github.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://qtaolab.github.io/tags/hexo/"/>
     
-    <category term="theme" scheme="https://qtao3.github.io/tags/theme/"/>
+    <category term="theme" scheme="https://qtaolab.github.io/tags/theme/"/>
     
   </entry>
   
   <entry>
     <title>Markdown Cheat Sheet</title>
-    <link href="https://qtao3.github.io/2023/07/12/markdown-cheat-sheet/"/>
-    <id>https://qtao3.github.io/2023/07/12/markdown-cheat-sheet/</id>
+    <link href="https://qtaolab.github.io/post/bafa2f31.html"/>
+    <id>https://qtaolab.github.io/post/bafa2f31.html</id>
     <published>2023-07-12T23:21:43.000Z</published>
-    <updated>2023-07-15T22:08:01.980Z</updated>
+    <updated>2023-07-16T18:13:50.470Z</updated>
     
     
       
@@ -59,64 +59,61 @@ m</summary>
     
     
     
-    <category term="Markdown" scheme="https://qtao3.github.io/categories/Markdown/"/>
+    <category term="Markdown" scheme="https://qtaolab.github.io/categories/Markdown/"/>
     
     
-    <category term="markdown" scheme="https://qtao3.github.io/tags/markdown/"/>
+    <category term="markdown" scheme="https://qtaolab.github.io/tags/markdown/"/>
     
-    <category term="cheatsheet" scheme="https://qtao3.github.io/tags/cheatsheet/"/>
+    <category term="cheatsheet" scheme="https://qtaolab.github.io/tags/cheatsheet/"/>
     
   </entry>
   
   <entry>
     <title>NexT theme configuration</title>
-    <link href="https://qtao3.github.io/2023/07/12/next_theme_cofig/"/>
-    <id>https://qtao3.github.io/2023/07/12/next_theme_cofig/</id>
+    <link href="https://qtaolab.github.io/post/5e7f084d.html"/>
+    <id>https://qtaolab.github.io/post/5e7f084d.html</id>
     <published>2023-07-12T22:44:58.000Z</published>
-    <updated>2023-07-13T15:11:57.670Z</updated>
+    <updated>2023-07-16T18:13:50.470Z</updated>
     
     
       
       
     <summary type="html">&lt;h1 id=&quot;how-to-configure-next-theme&quot;&gt;How to configure NexT theme?&lt;/h1&gt;
-&lt;p&gt;The traditional approach is to edit &lt;a class=&quot;link&quot; 
- href=&quot;https:</summary>
+&lt;p&gt;The traditional approach is to edit &lt;a
+href=&quot;https://theme-next.js</summary>
       
     
     
     
-    <category term="Theme" scheme="https://qtao3.github.io/categories/Theme/"/>
+    <category term="Theme" scheme="https://qtaolab.github.io/categories/Theme/"/>
     
     
-    <category term="hexo" scheme="https://qtao3.github.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://qtaolab.github.io/tags/hexo/"/>
     
-    <category term="theme" scheme="https://qtao3.github.io/tags/theme/"/>
+    <category term="theme" scheme="https://qtaolab.github.io/tags/theme/"/>
     
-    <category term="configuration" scheme="https://qtao3.github.io/tags/configuration/"/>
+    <category term="configuration" scheme="https://qtaolab.github.io/tags/configuration/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://qtao3.github.io/2023/07/12/hello-world/"/>
-    <id>https://qtao3.github.io/2023/07/12/hello-world/</id>
+    <link href="https://qtaolab.github.io/post/4a17b156.html"/>
+    <id>https://qtaolab.github.io/post/4a17b156.html</id>
     <published>2023-07-12T18:43:14.780Z</published>
-    <updated>2023-07-13T15:09:48.890Z</updated>
+    <updated>2023-07-17T00:34:05.480Z</updated>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo &lt;i class=&quot;fa-regular fa-arrow-up-right-from-square fa-sm&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is yo</summary>
-      
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="Hexo" scheme="https://qtao3.github.io/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://qtaolab.github.io/categories/Hexo/"/>
     
     
-    <category term="hexo" scheme="https://qtao3.github.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://qtaolab.github.io/tags/hexo/"/>
     
-    <category term="install" scheme="https://qtao3.github.io/tags/install/"/>
+    <category term="install" scheme="https://qtaolab.github.io/tags/install/"/>
     
   </entry>
   
