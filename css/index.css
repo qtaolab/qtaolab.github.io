@@ -3340,7 +3340,7 @@ h1.page-title + .tag-cloud-list {
 }
 #page-header #page-site-info {
   position: absolute;
-  top: 200px;
+  top: 120px;
   padding: 0 10px;
   width: 100%;
 }
